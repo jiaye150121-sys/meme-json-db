@@ -1,0 +1,953 @@
+{
+  "name": "meme-json-db",
+  "version": "1.0.0",
+  "description": "13 个表情包按内容分类的 JSON 检索库：支持按分类、情绪、标签、角色、文案关键词检索。",
+  "count": 13,
+  "license_note": "素材由上传者提供，仅供个人/检索演示；第三方版权素材请自行确认使用权。",
+  "how_to_search": {
+    "by_id": "items[].id",
+    "by_category": "indexes.by_category",
+    "by_emotion": "indexes.by_emotion",
+    "by_tag": "indexes.by_tag",
+    "full_text": "对 items[].search_text / title / caption / tags 做包含匹配"
+  },
+  "items": [
+    {
+      "id": "meme_01",
+      "file": "images/01_buffering_friend_said.jpg",
+      "title": "朋友说了几遍，还没听清的我",
+      "caption": "朋友说了几遍，还没听清的我",
+      "categories": [
+        "困惑",
+        "没听清",
+        "缓冲中",
+        "社交"
+      ],
+      "emotions": [
+        "困惑",
+        "茫然",
+        "信息过载"
+      ],
+      "tags": [
+        "朋友",
+        "听不清",
+        "loading",
+        "缓冲",
+        "表情包",
+        "反应图",
+        "说了几遍"
+      ],
+      "characters": [
+        "简笔圆头小人"
+      ],
+      "style": [
+        "简笔画",
+        "红底白字横幅",
+        "黑白"
+      ],
+      "use_when": [
+        "别人解释了好几遍你还是没懂",
+        "聊天没听清对方说什么",
+        "脑子还在转圈"
+      ],
+      "search_text": "朋友说了几遍还没听清的我 困惑 没听清 loading 缓冲 茫然 信息过载",
+      "sha256": "81f57ff9a50c93b1a02fd07ec6914ed8358481b77d1d036e9c3af8479bfb0e83",
+      "bytes": 285597,
+      "filename": "01_buffering_friend_said.jpg"
+    },
+    {
+      "id": "meme_02",
+      "file": "images/02_pretend_understood.jpg",
+      "title": "然后假装听懂了belike",
+      "caption": "然后假装听懂了belike",
+      "categories": [
+        "假装听懂",
+        "困惑",
+        "社交"
+      ],
+      "emotions": [
+        "尴尬",
+        "茫然",
+        "装懂"
+      ],
+      "tags": [
+        "假装听懂",
+        "belike",
+        "装懂",
+        "尴尬",
+        "表情包",
+        "反应图"
+      ],
+      "characters": [
+        "简笔圆头小人"
+      ],
+      "style": [
+        "简笔画",
+        "红底白字横幅",
+        "黑白"
+      ],
+      "use_when": [
+        "其实没懂但点头说哦哦哦",
+        "装懂场面",
+        "听完假装明白了"
+      ],
+      "search_text": "然后假装听懂了belike 装懂 尴尬 茫然 假装听懂",
+      "sha256": "490ed601c94d43ba00e9dbbcee2542b61c10dc01a33600512af65032894116b2",
+      "bytes": 224103,
+      "filename": "02_pretend_understood.jpg"
+    },
+    {
+      "id": "meme_03",
+      "file": "images/03_scolded_by_friend.jpg",
+      "title": "被朋友骂了的我",
+      "caption": "被朋友骂了的我",
+      "categories": [
+        "被骂",
+        "委屈",
+        "社交"
+      ],
+      "emotions": [
+        "委屈",
+        "恼火",
+        "困惑"
+      ],
+      "tags": [
+        "被朋友骂",
+        "问号",
+        "委屈",
+        "表情包",
+        "反应图"
+      ],
+      "characters": [
+        "简笔圆头小人"
+      ],
+      "style": [
+        "简笔画",
+        "红底白字横幅",
+        "黑白",
+        "问号图标"
+      ],
+      "use_when": [
+        "被朋友骂了还懵着",
+        "挨骂后一脸问号",
+        "又委屈又生气"
+      ],
+      "search_text": "被朋友骂了的我 委屈 恼火 问号 挨骂",
+      "sha256": "0338e3701bcb95bbadfa8f1c36171157422215a42a4870bf596b70224780d3d7",
+      "bytes": 242111,
+      "filename": "03_scolded_by_friend.jpg"
+    },
+    {
+      "id": "meme_04",
+      "file": "images/04_blank_stare.jpg",
+      "title": "空白凝视",
+      "caption": null,
+      "categories": [
+        "空白",
+        "呆住",
+        "无语"
+      ],
+      "emotions": [
+        "空白",
+        "呆滞",
+        "无语"
+      ],
+      "tags": [
+        "凝视",
+        "呆住",
+        "goober",
+        "autism creature",
+        "无字",
+        "表情包"
+      ],
+      "characters": [
+        "圆头四腿生物"
+      ],
+      "style": [
+        "简笔画",
+        "黑白",
+        "无文字"
+      ],
+      "use_when": [
+        "脑子空了",
+        "无话可说",
+        "纯呆住反应"
+      ],
+      "search_text": "空白凝视 呆住 无语 呆滞 goober 凝视",
+      "sha256": "a11ffb976cc58ba31d43ee70fcbf47897da9536ffff51eae4e3892f135bd4bfc",
+      "bytes": 35688,
+      "filename": "04_blank_stare.jpg"
+    },
+    {
+      "id": "meme_05",
+      "file": "images/05_pixel_smile.jpg",
+      "title": "糊脸怪笑",
+      "caption": null,
+      "categories": [
+        "怪笑",
+        "抽象",
+        "像素糊"
+      ],
+      "emotions": [
+        "诡异",
+        "搞笑",
+        "抽象"
+      ],
+      "tags": [
+        "像素",
+        "模糊",
+        "怪笑",
+        "抽象",
+        "表情包",
+        "低清"
+      ],
+      "characters": [
+        "模糊人脸"
+      ],
+      "style": [
+        "低清像素",
+        "失真",
+        "无文字"
+      ],
+      "use_when": [
+        "抽象回复",
+        "阴阳怪气笑一下",
+        "发个糊图撑场面"
+      ],
+      "search_text": "糊脸怪笑 像素 模糊 抽象 诡异 怪笑",
+      "sha256": "a8c8b077e627d8abb10daccc7e9e2d45875b6b2006342838c15ced9d09772fac",
+      "bytes": 46250,
+      "filename": "05_pixel_smile.jpg"
+    },
+    {
+      "id": "meme_06",
+      "file": "images/06_uncle_can_fly.jpg",
+      "title": "别闹，叔叔会飞",
+      "caption": "别闹，叔叔会飞",
+      "categories": [
+        "装逼",
+        "玩梗",
+        "自信"
+      ],
+      "emotions": [
+        "得意",
+        "调侃",
+        "玩梗"
+      ],
+      "tags": [
+        "叔叔会飞",
+        "别闹",
+        "会飞",
+        "黄龙",
+        "翅膀",
+        "表情包"
+      ],
+      "characters": [
+        "黄色带翅膀小龙"
+      ],
+      "style": [
+        "3D卡通",
+        "红底白字横幅",
+        "彩色"
+      ],
+      "use_when": [
+        "装一下实力",
+        "别小看我",
+        "玩梗回怼"
+      ],
+      "search_text": "别闹叔叔会飞 装逼 得意 调侃 会飞 黄龙",
+      "sha256": "9bdbeab91aa6a9f04da55a4e89698662acf02f8e518893ef9f455f606c17be8d",
+      "bytes": 93486,
+      "filename": "06_uncle_can_fly.jpg"
+    },
+    {
+      "id": "meme_07",
+      "file": "images/07_deadpan_girl.jpg",
+      "title": "面瘫少女",
+      "caption": null,
+      "categories": [
+        "面瘫",
+        "无语",
+        "冷淡"
+      ],
+      "emotions": [
+        "冷淡",
+        "无语",
+        "疲惫"
+      ],
+      "tags": [
+        "面瘫",
+        "死鱼眼",
+        "黑白",
+        "chibi",
+        "十字架项链",
+        "表情包"
+      ],
+      "characters": [
+        "黑长直少女"
+      ],
+      "style": [
+        "黑白插画",
+        "chibi",
+        "无文字"
+      ],
+      "use_when": [
+        "无语到不想说话",
+        "冷脸回应",
+        "累了不想解释"
+      ],
+      "search_text": "面瘫少女 死鱼眼 冷淡 无语 疲惫 黑长直",
+      "sha256": "457007fbbb43c83edcd285c161eaac344ae847e3da3a978d3eadf49b2e3b4239",
+      "bytes": 55231,
+      "filename": "07_deadpan_girl.jpg"
+    },
+    {
+      "id": "meme_08",
+      "file": "images/08_laugh_cry.jpg",
+      "title": "笑着流泪",
+      "caption": null,
+      "categories": [
+        "苦笑",
+        "破防",
+        "熊猫头"
+      ],
+      "emotions": [
+        "苦笑",
+        "无奈",
+        "破防"
+      ],
+      "tags": [
+        "熊猫头",
+        "流泪",
+        "笑哭",
+        "苦笑",
+        "表情包",
+        "biaoqing"
+      ],
+      "characters": [
+        "熊猫头"
+      ],
+      "style": [
+        "熊猫头表情包",
+        "像素糊",
+        "无文字"
+      ],
+      "use_when": [
+        "笑中带泪",
+        "无奈苦笑",
+        "破防但还在笑"
+      ],
+      "search_text": "笑着流泪 熊猫头 苦笑 无奈 破防 笑哭",
+      "sha256": "0d539a4888783eab38291a47ff16f2420ed861c95ec9c6679cf0f05f77e49224",
+      "bytes": 86133,
+      "filename": "08_laugh_cry.jpg"
+    },
+    {
+      "id": "meme_09",
+      "file": "images/09_light_thinking.jpg",
+      "title": "夜神月思考",
+      "caption": null,
+      "categories": [
+        "思考",
+        "算计",
+        "动漫"
+      ],
+      "emotions": [
+        "冷静",
+        "自信",
+        "谋划"
+      ],
+      "tags": [
+        "夜神月",
+        "Light",
+        "Death Note",
+        "死亡笔记",
+        "思考",
+        "指太阳穴",
+        "表情包"
+      ],
+      "characters": [
+        "夜神月"
+      ],
+      "style": [
+        "动漫立绘",
+        "暗色背景",
+        "无文字"
+      ],
+      "use_when": [
+        "我有个计划",
+        "认真思考中",
+        "装作高智商算计"
+      ],
+      "search_text": "夜神月思考 Light 死亡笔记 算计 冷静 指太阳穴",
+      "sha256": "32025c4c1ba248fd1aadd0ab8019c19f143e0a49c6efa668da4091ac3a1e8fd4",
+      "bytes": 59150,
+      "filename": "09_light_thinking.jpg"
+    },
+    {
+      "id": "meme_10",
+      "file": "images/10_cant_cope_kid.jpg",
+      "title": "我无法应对",
+      "caption": "我无法应对",
+      "categories": [
+        "崩溃",
+        "应付不来",
+        "小孩"
+      ],
+      "emotions": [
+        "崩溃",
+        "无助",
+        "懵"
+      ],
+      "tags": [
+        "我无法应对",
+        "小孩",
+        "应付不来",
+        "表情包",
+        "反应图"
+      ],
+      "characters": [
+        "小孩"
+      ],
+      "style": [
+        "实拍裁切",
+        "红底白字横幅"
+      ],
+      "use_when": [
+        "完全应付不来",
+        "信息量过大",
+        "心态崩了但还在硬撑"
+      ],
+      "search_text": "我无法应对 崩溃 无助 懵 小孩 应付不来",
+      "sha256": "de20d755a16cd1a343cb6f81a731b5f34f077ca10463d2a63831d3869a717c8d",
+      "bytes": 59752,
+      "filename": "10_cant_cope_kid.jpg"
+    },
+    {
+      "id": "meme_11",
+      "file": "images/11_yellow_dog_blank.jpg",
+      "title": "黄狗发呆",
+      "caption": null,
+      "categories": [
+        "发呆",
+        "空白",
+        "动物"
+      ],
+      "emotions": [
+        "呆滞",
+        "空白",
+        "可爱"
+      ],
+      "tags": [
+        "黄狗",
+        "发呆",
+        "头带",
+        "表情包",
+        "动物"
+      ],
+      "characters": [
+        "黄色小狗"
+      ],
+      "style": [
+        "卡通特写",
+        "柔焦",
+        "无文字"
+      ],
+      "use_when": [
+        "单纯发呆",
+        "大脑放空",
+        "可爱地懵一下"
+      ],
+      "search_text": "黄狗发呆 呆滞 空白 放空 小狗",
+      "sha256": "37718b824e632b2fd20acf8b2da5241af9a2bd1e5263a7c9567767c4a2cff658",
+      "bytes": 48530,
+      "filename": "11_yellow_dog_blank.jpg"
+    },
+    {
+      "id": "meme_12",
+      "file": "images/12_watermelon_dog.jpg",
+      "title": "西瓜头盔狗",
+      "caption": null,
+      "categories": [
+        "可爱",
+        "玩梗",
+        "动物"
+      ],
+      "emotions": [
+        "可爱",
+        "搞笑",
+        "轻松"
+      ],
+      "tags": [
+        "西瓜",
+        "头盔",
+        "黄狗",
+        "3D",
+        "表情包",
+        "动物"
+      ],
+      "characters": [
+        "戴西瓜皮的黄狗"
+      ],
+      "style": [
+        "3D卡通",
+        "白底",
+        "无文字"
+      ],
+      "use_when": [
+        "轻松玩梗",
+        "发个可爱图",
+        "莫名其妙但好笑"
+      ],
+      "search_text": "西瓜头盔狗 西瓜皮 黄狗 可爱 搞笑",
+      "sha256": "f82a4c44e66c0434e9c0379b845ed82712aa45f6ff4d327299b95a1566c65bbb",
+      "bytes": 61882,
+      "filename": "12_watermelon_dog.jpg"
+    },
+    {
+      "id": "meme_13",
+      "file": "images/13_light_old_feng.jpg",
+      "title": "哎呦我滴个老冯子呀",
+      "caption": "哎呦我滴个老冯子呀",
+      "categories": [
+        "无奈",
+        "吐槽",
+        "动漫"
+      ],
+      "emotions": [
+        "无奈",
+        "崩溃",
+        "吐槽"
+      ],
+      "tags": [
+        "老冯子",
+        "夜神月",
+        "Death Note",
+        "哎呦",
+        "表情包",
+        "吐槽"
+      ],
+      "characters": [
+        "夜神月"
+      ],
+      "style": [
+        "漫画截图",
+        "对话框",
+        "暗色背景"
+      ],
+      "use_when": [
+        "无奈吐槽某人某事",
+        "又来了这一出",
+        "哎呦我去"
+      ],
+      "search_text": "哎呦我滴个老冯子呀 无奈 吐槽 夜神月 老冯子 崩溃",
+      "sha256": "2097f39f28c929f04f174adc898c578d856580b7e7091af02be2f7e9d69740c5",
+      "bytes": 71138,
+      "filename": "13_light_old_feng.jpg"
+    }
+  ],
+  "indexes": {
+    "by_category": {
+      "假装听懂": [
+        "meme_02"
+      ],
+      "像素糊": [
+        "meme_05"
+      ],
+      "冷淡": [
+        "meme_07"
+      ],
+      "动漫": [
+        "meme_09",
+        "meme_13"
+      ],
+      "动物": [
+        "meme_11",
+        "meme_12"
+      ],
+      "发呆": [
+        "meme_11"
+      ],
+      "可爱": [
+        "meme_12"
+      ],
+      "吐槽": [
+        "meme_13"
+      ],
+      "呆住": [
+        "meme_04"
+      ],
+      "困惑": [
+        "meme_01",
+        "meme_02"
+      ],
+      "委屈": [
+        "meme_03"
+      ],
+      "小孩": [
+        "meme_10"
+      ],
+      "崩溃": [
+        "meme_10"
+      ],
+      "应付不来": [
+        "meme_10"
+      ],
+      "思考": [
+        "meme_09"
+      ],
+      "怪笑": [
+        "meme_05"
+      ],
+      "抽象": [
+        "meme_05"
+      ],
+      "无奈": [
+        "meme_13"
+      ],
+      "无语": [
+        "meme_04",
+        "meme_07"
+      ],
+      "没听清": [
+        "meme_01"
+      ],
+      "熊猫头": [
+        "meme_08"
+      ],
+      "玩梗": [
+        "meme_06",
+        "meme_12"
+      ],
+      "破防": [
+        "meme_08"
+      ],
+      "社交": [
+        "meme_01",
+        "meme_02",
+        "meme_03"
+      ],
+      "空白": [
+        "meme_04",
+        "meme_11"
+      ],
+      "算计": [
+        "meme_09"
+      ],
+      "缓冲中": [
+        "meme_01"
+      ],
+      "自信": [
+        "meme_06"
+      ],
+      "苦笑": [
+        "meme_08"
+      ],
+      "被骂": [
+        "meme_03"
+      ],
+      "装逼": [
+        "meme_06"
+      ],
+      "面瘫": [
+        "meme_07"
+      ]
+    },
+    "by_emotion": {
+      "信息过载": [
+        "meme_01"
+      ],
+      "冷淡": [
+        "meme_07"
+      ],
+      "冷静": [
+        "meme_09"
+      ],
+      "可爱": [
+        "meme_11",
+        "meme_12"
+      ],
+      "吐槽": [
+        "meme_13"
+      ],
+      "呆滞": [
+        "meme_04",
+        "meme_11"
+      ],
+      "困惑": [
+        "meme_01",
+        "meme_03"
+      ],
+      "委屈": [
+        "meme_03"
+      ],
+      "尴尬": [
+        "meme_02"
+      ],
+      "崩溃": [
+        "meme_10",
+        "meme_13"
+      ],
+      "得意": [
+        "meme_06"
+      ],
+      "恼火": [
+        "meme_03"
+      ],
+      "懵": [
+        "meme_10"
+      ],
+      "抽象": [
+        "meme_05"
+      ],
+      "搞笑": [
+        "meme_05",
+        "meme_12"
+      ],
+      "无助": [
+        "meme_10"
+      ],
+      "无奈": [
+        "meme_08",
+        "meme_13"
+      ],
+      "无语": [
+        "meme_04",
+        "meme_07"
+      ],
+      "玩梗": [
+        "meme_06"
+      ],
+      "疲惫": [
+        "meme_07"
+      ],
+      "破防": [
+        "meme_08"
+      ],
+      "空白": [
+        "meme_04",
+        "meme_11"
+      ],
+      "自信": [
+        "meme_09"
+      ],
+      "苦笑": [
+        "meme_08"
+      ],
+      "茫然": [
+        "meme_01",
+        "meme_02"
+      ],
+      "装懂": [
+        "meme_02"
+      ],
+      "诡异": [
+        "meme_05"
+      ],
+      "调侃": [
+        "meme_06"
+      ],
+      "谋划": [
+        "meme_09"
+      ],
+      "轻松": [
+        "meme_12"
+      ]
+    },
+    "by_tag": {
+      "3D": [
+        "meme_12"
+      ],
+      "Death Note": [
+        "meme_09",
+        "meme_13"
+      ],
+      "Light": [
+        "meme_09"
+      ],
+      "autism creature": [
+        "meme_04"
+      ],
+      "belike": [
+        "meme_02"
+      ],
+      "biaoqing": [
+        "meme_08"
+      ],
+      "chibi": [
+        "meme_07"
+      ],
+      "goober": [
+        "meme_04"
+      ],
+      "loading": [
+        "meme_01"
+      ],
+      "会飞": [
+        "meme_06"
+      ],
+      "低清": [
+        "meme_05"
+      ],
+      "假装听懂": [
+        "meme_02"
+      ],
+      "像素": [
+        "meme_05"
+      ],
+      "凝视": [
+        "meme_04"
+      ],
+      "别闹": [
+        "meme_06"
+      ],
+      "动物": [
+        "meme_11",
+        "meme_12"
+      ],
+      "十字架项链": [
+        "meme_07"
+      ],
+      "反应图": [
+        "meme_01",
+        "meme_02",
+        "meme_03",
+        "meme_10"
+      ],
+      "发呆": [
+        "meme_11"
+      ],
+      "叔叔会飞": [
+        "meme_06"
+      ],
+      "吐槽": [
+        "meme_13"
+      ],
+      "听不清": [
+        "meme_01"
+      ],
+      "呆住": [
+        "meme_04"
+      ],
+      "哎呦": [
+        "meme_13"
+      ],
+      "夜神月": [
+        "meme_09",
+        "meme_13"
+      ],
+      "头带": [
+        "meme_11"
+      ],
+      "头盔": [
+        "meme_12"
+      ],
+      "委屈": [
+        "meme_03"
+      ],
+      "小孩": [
+        "meme_10"
+      ],
+      "尴尬": [
+        "meme_02"
+      ],
+      "应付不来": [
+        "meme_10"
+      ],
+      "思考": [
+        "meme_09"
+      ],
+      "怪笑": [
+        "meme_05"
+      ],
+      "我无法应对": [
+        "meme_10"
+      ],
+      "抽象": [
+        "meme_05"
+      ],
+      "指太阳穴": [
+        "meme_09"
+      ],
+      "无字": [
+        "meme_04"
+      ],
+      "朋友": [
+        "meme_01"
+      ],
+      "模糊": [
+        "meme_05"
+      ],
+      "死亡笔记": [
+        "meme_09"
+      ],
+      "死鱼眼": [
+        "meme_07"
+      ],
+      "流泪": [
+        "meme_08"
+      ],
+      "熊猫头": [
+        "meme_08"
+      ],
+      "笑哭": [
+        "meme_08"
+      ],
+      "缓冲": [
+        "meme_01"
+      ],
+      "翅膀": [
+        "meme_06"
+      ],
+      "老冯子": [
+        "meme_13"
+      ],
+      "苦笑": [
+        "meme_08"
+      ],
+      "表情包": [
+        "meme_01",
+        "meme_02",
+        "meme_03",
+        "meme_04",
+        "meme_05",
+        "meme_06",
+        "meme_07",
+        "meme_08",
+        "meme_09",
+        "meme_10",
+        "meme_11",
+        "meme_12",
+        "meme_13"
+      ],
+      "被朋友骂": [
+        "meme_03"
+      ],
+      "装懂": [
+        "meme_02"
+      ],
+      "西瓜": [
+        "meme_12"
+      ],
+      "说了几遍": [
+        "meme_01"
+      ],
+      "问号": [
+        "meme_03"
+      ],
+      "面瘫": [
+        "meme_07"
+      ],
+      "黄狗": [
+        "meme_11",
+        "meme_12"
+      ],
+      "黄龙": [
+        "meme_06"
+      ],
+      "黑白": [
+        "meme_07"
+      ]
+    }
+  }
+}
